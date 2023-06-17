@@ -1,0 +1,39 @@
+.swiper-container {
+    width: 400px;
+    height: 467px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide {
+    width: 400px;
+    height: 467px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+}
+
+.swiper-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;  
+    overflow: visible;
+}
+
+.b-Next {
+    left: var(--swiper-navigation-sides-offset,335px);
+    top: var(--swiper-navigation-top-offset,32%);
+    color: white;
+}
+
+.b-Prev {
+    left: var(--swiper-navigation-sides-offset,20px);
+    top: var(--swiper-navigation-top-offset,32%);
+    color: white;
+}
+
